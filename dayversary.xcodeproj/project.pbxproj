@@ -12,6 +12,16 @@
 		91EC40EE1C43DFC3009973F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EC40EC1C43DFC3009973F4 /* Main.storyboard */; };
 		91EC40F01C43DFC3009973F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EC40EF1C43DFC3009973F4 /* Assets.xcassets */; };
 		91EC40F31C43DFC3009973F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EC40F11C43DFC3009973F4 /* LaunchScreen.storyboard */; };
+		91EC40FF1C43E075009973F4 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91EC40FC1C43E074009973F4 /* RobotoCondensed-Bold.ttf */; };
+		91EC41001C43E075009973F4 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91EC40FD1C43E074009973F4 /* RobotoCondensed-Regular.ttf */; };
+		91EC41011C43E075009973F4 /* RobotoCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91EC40FE1C43E074009973F4 /* RobotoCondensed-Light.ttf */; };
+		91EC41031C43E143009973F4 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC41021C43E143009973F4 /* DatePicker.swift */; };
+		91EC41051C43E1A3009973F4 /* pugia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC41041C43E1A3009973F4 /* pugia.swift */; };
+		91EC410B1C43E1BB009973F4 /* ScrollHandlerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC41061C43E1BB009973F4 /* ScrollHandlerCollectionView.swift */; };
+		91EC410C1C43E1BB009973F4 /* ScrollCenterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC41071C43E1BB009973F4 /* ScrollCenterCollectionView.swift */; };
+		91EC410D1C43E1BB009973F4 /* ScrollExternalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC41081C43E1BB009973F4 /* ScrollExternalCollectionView.swift */; };
+		91EC410E1C43E1BB009973F4 /* ScrollExternalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC41091C43E1BB009973F4 /* ScrollExternalCollectionViewCell.swift */; };
+		91EC410F1C43E1BB009973F4 /* ScrollCenterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC410A1C43E1BB009973F4 /* ScrollCenterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		91EC40EF1C43DFC3009973F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91EC40F21C43DFC3009973F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91EC40F41C43DFC3009973F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91EC40FC1C43E074009973F4 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		91EC40FD1C43E074009973F4 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		91EC40FE1C43E074009973F4 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
+		91EC41021C43E143009973F4 /* DatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		91EC41041C43E1A3009973F4 /* pugia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pugia.swift; sourceTree = "<group>"; };
+		91EC41061C43E1BB009973F4 /* ScrollHandlerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollHandlerCollectionView.swift; sourceTree = "<group>"; };
+		91EC41071C43E1BB009973F4 /* ScrollCenterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollCenterCollectionView.swift; sourceTree = "<group>"; };
+		91EC41081C43E1BB009973F4 /* ScrollExternalCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollExternalCollectionView.swift; sourceTree = "<group>"; };
+		91EC41091C43E1BB009973F4 /* ScrollExternalCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollExternalCollectionViewCell.swift; sourceTree = "<group>"; };
+		91EC410A1C43E1BB009973F4 /* ScrollCenterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollCenterCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +74,10 @@
 		91EC40E71C43DFC3009973F4 /* dayversary */ = {
 			isa = PBXGroup;
 			children = (
+				91EC40FB1C43DFFE009973F4 /* Elements */,
+				91EC40FA1C43DFF4009973F4 /* Externals */,
 				91EC40E81C43DFC3009973F4 /* AppDelegate.swift */,
+				91EC41021C43E143009973F4 /* DatePicker.swift */,
 				91EC40EA1C43DFC3009973F4 /* ViewController.swift */,
 				91EC40EC1C43DFC3009973F4 /* Main.storyboard */,
 				91EC40EF1C43DFC3009973F4 /* Assets.xcassets */,
@@ -62,6 +85,29 @@
 				91EC40F41C43DFC3009973F4 /* Info.plist */,
 			);
 			path = dayversary;
+			sourceTree = "<group>";
+		};
+		91EC40FA1C43DFF4009973F4 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				91EC41061C43E1BB009973F4 /* ScrollHandlerCollectionView.swift */,
+				91EC41071C43E1BB009973F4 /* ScrollCenterCollectionView.swift */,
+				91EC41081C43E1BB009973F4 /* ScrollExternalCollectionView.swift */,
+				91EC41091C43E1BB009973F4 /* ScrollExternalCollectionViewCell.swift */,
+				91EC410A1C43E1BB009973F4 /* ScrollCenterCollectionViewCell.swift */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+		91EC40FB1C43DFFE009973F4 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				91EC41041C43E1A3009973F4 /* pugia.swift */,
+				91EC40FC1C43E074009973F4 /* RobotoCondensed-Bold.ttf */,
+				91EC40FD1C43E074009973F4 /* RobotoCondensed-Regular.ttf */,
+				91EC40FE1C43E074009973F4 /* RobotoCondensed-Light.ttf */,
+			);
+			name = Elements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +142,7 @@
 				TargetAttributes = {
 					91EC40E41C43DFC3009973F4 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = V63YGT9MWM;
 					};
 				};
 			};
@@ -124,6 +171,9 @@
 			files = (
 				91EC40F31C43DFC3009973F4 /* LaunchScreen.storyboard in Resources */,
 				91EC40F01C43DFC3009973F4 /* Assets.xcassets in Resources */,
+				91EC40FF1C43E075009973F4 /* RobotoCondensed-Bold.ttf in Resources */,
+				91EC41001C43E075009973F4 /* RobotoCondensed-Regular.ttf in Resources */,
+				91EC41011C43E075009973F4 /* RobotoCondensed-Light.ttf in Resources */,
 				91EC40EE1C43DFC3009973F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91EC41051C43E1A3009973F4 /* pugia.swift in Sources */,
+				91EC410D1C43E1BB009973F4 /* ScrollExternalCollectionView.swift in Sources */,
+				91EC410E1C43E1BB009973F4 /* ScrollExternalCollectionViewCell.swift in Sources */,
 				91EC40EB1C43DFC3009973F4 /* ViewController.swift in Sources */,
 				91EC40E91C43DFC3009973F4 /* AppDelegate.swift in Sources */,
+				91EC41031C43E143009973F4 /* DatePicker.swift in Sources */,
+				91EC410C1C43E1BB009973F4 /* ScrollCenterCollectionView.swift in Sources */,
+				91EC410B1C43E1BB009973F4 /* ScrollHandlerCollectionView.swift in Sources */,
+				91EC410F1C43E1BB009973F4 /* ScrollCenterCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +304,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = dayversary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pugia.dayversary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +318,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = dayversary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pugia.dayversary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

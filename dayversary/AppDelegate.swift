@@ -12,10 +12,22 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var mainNavigationController: UINavigationController?
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         // Override point for customization after application launch.
+        let start = DatePicker()
+        mainNavigationController = UINavigationController(rootViewController: start)
+        mainNavigationController?.navigationBarHidden = true
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.rootViewController = mainNavigationController
+        self.window!.backgroundColor = HEXColor(hex: "f5f5f5")
+        self.window!.makeKeyAndVisible()
+        
+        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        
         return true
     }
 
